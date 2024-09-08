@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.WebApi", "Company.WebApi\Company.WebApi.csproj", "{E0BCB470-BA49-419C-8DD1-76A572B19EEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.WebApi", "Company.WebApi\Company.WebApi.csproj", "{E0BCB470-BA49-419C-8DD1-76A572B19EEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.BlazorApp", "Company.BlazorApp\Company.BlazorApp.csproj", "{881D2756-5182-4843-B770-C55256D26350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.BlazorApp", "Company.BlazorApp\Company.BlazorApp.csproj", "{881D2756-5182-4843-B770-C55256D26350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Shared", "Company.Shared\Company.Shared.csproj", "{61ADD799-00A4-44E6-9956-8B14A3AEC591}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Shared", "Company.Shared\Company.Shared.csproj", "{61ADD799-00A4-44E6-9956-8B14A3AEC591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Tests", "Company.Tests\Company.Tests.csproj", "{A213A8F2-876C-4167-963C-1149519CE690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company.Tests", "Company.Tests\Company.Tests.csproj", "{A213A8F2-876C-4167-963C-1149519CE690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{EA42C2A5-C592-4BAE-9EDA-AFCECBA76E0F}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
