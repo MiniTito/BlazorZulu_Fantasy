@@ -10,3 +10,5 @@ CurrieTechnologies.Razor.SweetAlert2
 
 0) add-migration AddTblCountries
 0) update-database
+1) add-migration AddTblTeams
+1) update-database

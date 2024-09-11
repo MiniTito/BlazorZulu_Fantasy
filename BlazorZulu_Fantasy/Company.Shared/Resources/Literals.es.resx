@@ -139,9 +139,42 @@
     <value>Inicio</value>
   </data>
   <data name="Image" xml:space="preserve">
-    <value>Image</value>
+    <value>Imagen</value>
   </data>
   <data name="NoRecords" xml:space="preserve">
     <value>No hay registros para mostrar</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Guardar Cambios</value>
+  </data>
+  <data name="RecordSaveOk" xml:space="preserve">
+    <value>Registro Guardado OK</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>Estas seguro en Eliminar el: {0} {1}?</value>
+  </data>
+  <data name="RecordDeletedOk" xml:space="preserve">
+    <value>Registro Eliminado OK</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
   </data>
 </root>

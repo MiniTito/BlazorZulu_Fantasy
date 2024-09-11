@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Company.Shared.Entities
 {
-    public class Country
+    //Equipo
+    public class Team
     {
         public int Id { get; set; }
 
@@ -15,10 +16,10 @@ namespace Company.Shared.Entities
         [Required]
         public string Name { get; set; } = null!;
 
-        //RELATIONS: HIJOS (Puede Ser Nulo )
-        //Al crear un pais inicialmente no tiene equipos
-        public ICollection<Team>? Teams { get; set; }
-        //Prop lectura. no se mapea o guarda en BDatos
-        public int TeamsCount => Teams == null ? 0 : Teams.Count;
+        public string? Image { get; set; }
+
+        //RELATIONS: PADRE
+        public int CountryId { get; set; }
+        public Country Country { get; set; } = null!;
     }
 }
